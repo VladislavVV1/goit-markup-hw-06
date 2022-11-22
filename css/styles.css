@@ -423,6 +423,7 @@ footer{
 }
 .mail-form{
     padding-top: 12px;
+    margin-left: auto;
 }
 .mail-wrapper{
     width: 570px;
@@ -442,6 +443,7 @@ footer{
     width: 358px;
 }
 .mail-field{
+    display: block;
     width: 100%;
     height: 50px;
     outline: unset;
@@ -470,15 +472,17 @@ footer{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    margin-right: 12px;
+    width: 200px;
+    margin-left: 12px;
+    padding: 10px 0;
     letter-spacing: 0.06em;
     background-color: var(--accent-text-color);
     color: var(--primary-white-color);
     cursor: pointer;
-    padding: 10px 28px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     transition: background-color var(--primary-anim);
@@ -486,6 +490,9 @@ footer{
 .subscribe-button:focus,
 .subscribe-button:hover{
     background-color: #188CE8 ;
+}
+.mail-container{
+    display: flex;
 }
 
 
